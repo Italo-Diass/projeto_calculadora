@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+    padding: 36px;
+}
+
+.container {
+    background-color: white;
+    width: auto;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.calculadora {
+    width: 400px;
+}
+
+.display {
+    font-size: 1.6em;
+    width: 100%;
+    text-align: right;
+    padding: 2px 6px;
+}
+
+.btn {
+    width: 100%;
+    height: 36px;
+    font-size: 1em;
+    border: none;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+
+.btn:hover {
+    background-color: aqua;
+}
